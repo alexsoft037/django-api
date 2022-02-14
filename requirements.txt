@@ -19,6 +19,7 @@ botocore==1.12.253
 browsermob-proxy==0.8.0
 bs4==0.0.1
 cached-property==1.5.2
+
 cachetools==4.2.4
 cairocffi==1.2.0
 CairoSVG==2.5.2
@@ -69,6 +70,7 @@ Jinja2==3.0.3
 jmespath==0.10.0
 kombu==4.2.0
 logdna==1.2.8
+lxml==4.2.5
 MarkupSafe==2.0.1
 multidict==4.7.6
 nexmo==2.1.0
