@@ -1,0 +1,20 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>iCal Magic 14-day FREE TRIAL confirmation</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Hello!
+    </h1>
+    <p>
+        Please verify that the email address you signed up with is <span
+            id="email">{{ user.email }}</span> by clicking “Verify Email” below.
+    </p>
+    <a id="button-link" href="{{ activate_url }}" target="_blank">Verify Email</a>
+    <p id="after-button">
+        If you did not sign up for an account or have any questions, please email us at
+        <a id="mail-us" href="mailto:cozmo-support@voyajoy.com">cozmo-support@voyajoy.com</a>
+    </p>
+{% endblock %}

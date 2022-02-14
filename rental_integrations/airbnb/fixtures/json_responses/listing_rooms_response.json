@@ -1,0 +1,24 @@
+{
+  "listing_room": {
+    "beds": [
+      {
+        "quantity": 1,
+        "type": "couch"
+      },
+      {
+        "quantity": 2,
+        "type": "queen_bed"
+      }
+    ],
+    "id": 16967830,
+    "listing_id": 23635233,
+    "room_amenities": [
+      {
+        "quantity": 1,
+        "type": "en_suite_bathroom"
+      }
+    ],
+    "room_number": 1
+  },
+  "metadata": {}
+}

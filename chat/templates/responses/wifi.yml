@@ -1,0 +1,8 @@
+positive:
+  - "For future reference, the wifi name and password can be found in the welcome letter if you received it.\n\nWifi Name: {ssid}\nWifi Password: {password}"
+
+negative:
+  - ""
+
+neutral:
+  - ""

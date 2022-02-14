@@ -1,0 +1,19 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>Cozmo Invitation</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Hello!
+    </h1>
+    <p>
+        {{ inviter_name }} ({{ inviter_org }}) has invited you to manage your jobs on {{ app_name }}. Join now by accepting the invitation by clicking below.
+    </p>
+    <a id="button-link" href="{{ activate_url }}" target="_blank">Accept Invitation</a>
+    <p id="after-button">
+        If this was sent by mistake, you can ignore this message. Otherwise if you have any questions, please email us at
+        <a id="mail-us" href="mailto:cozmo-support@voyajoy.com">cozmo-support@voyajoy.com</a>
+    </p>
+{% endblock %}

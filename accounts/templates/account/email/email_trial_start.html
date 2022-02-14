@@ -1,0 +1,24 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>Upcoming Cozmo (vacation rental property management system) features</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Hi {{ user.first_name }}!
+    </h1>
+    <p>
+        We hope you’re continuing to enjoy your free trial of iCal&nbsp;Magic.
+        <br/>
+        <br/>
+        iCal Magic is the first in a series of feature releases for Cozmo,
+        the exciting new vacation rental property management system the Voyajoy team is working hard to create.
+    </p>
+    <p>
+        If you’re curious about upcoming Cozmo features we’re currently working on,
+        click <a target="_blank" href="https://blog.voyajoy.com/">here</a> for a preview!
+    </p>
+
+{% include 'account/email/email_question.html' %}
+{% endblock %}

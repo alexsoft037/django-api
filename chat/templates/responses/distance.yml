@@ -1,0 +1,8 @@
+positive:
+  - "From our place, it is about {driving_time} mins driving away!"
+
+negative:
+  - ""
+
+neutral:
+  - ""

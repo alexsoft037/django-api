@@ -1,0 +1,36 @@
+{
+  "listing": {
+    "amenity_categories": [
+      "tv",
+      "wireless_internet",
+      "ac",
+      "kitchen",
+      "washer",
+      "dryer"
+    ],
+    "apt": null,
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "beds": 3,
+    "city": "St Helena",
+    "country_code": "US",
+    "directions": "Take a cab from the airport",
+    "id": 21425420,
+    "lat": 38.490467,
+    "listing_price": 100,
+    "listing_currency": "USD",
+    "lng": -122.460449,
+    "name": "Amazing House in Wine Country",
+    "permit_or_tax_id": null,
+    "person_capacity": 8,
+    "property_type_category": "house",
+    "requested_approval_status_category": "new",
+    "room_type_category": "entire_home",
+    "state": "CA",
+    "street": "1691 Sulphur Springs Ave",
+    "user_defined_location": true,
+    "zipcode": "94574"
+  },
+  "metadata": {
+  }
+}

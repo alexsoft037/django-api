@@ -1,0 +1,199 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-align: center;
+                color: #3B4248;
+                font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+                width: 800px;
+                line-height: 1.5em;
+            }
+            table {
+               border-collapse: collapse;
+            }
+            h1 {
+                font-size: 36px;
+            }
+            h3 {
+                font-size: 23px;
+                margin-top: 60px;
+                color: #4a4a4a;
+                font-weight: normal;
+            }
+            p {
+                font-size: 14px;
+            }
+            small {
+                font-size: 12px;
+                color: #b7b7b7;
+            }
+            #pois, #things {
+                width: 95%;
+                margin: 0 auto;
+            }
+            #pois .map {
+                padding-top: 30px;
+            }
+            #pois p {
+                text-align: left;
+                margin-left: 10px;
+                margin-bottom: 0;
+                margin-top: 0;
+                padding: 0;
+            }
+            #pois a {
+                color: #232323;
+            }
+            #pois h5 {
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.1px;
+                text-align: left;
+                color: #64b5f6;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+            .availability {
+                border: 2px solid rgb(211, 211, 211);
+                width: 90%;
+                margin: 0 auto;
+            }
+            .availability h3 {
+                padding: 1px 0;
+                margin: 0;
+                font-weight: normal;
+                font-size: 20px;
+            }
+            .check__wrapper {
+                text-align: center;
+            }
+            .check__table {
+                width: 100%;
+                height: 200px;
+            }
+            .directions__table {
+                width: 95%;
+                margin: 0 auto;
+            }
+            .directions__table p.header {
+                padding: 0;
+                margin: 0;
+            }
+            .b__bottom {
+                border-bottom: 2px solid rgb(211, 211, 211);
+            }
+            .p__left {
+                padding-left: 40px;
+            }
+            .p__right {
+                padding-right: 15px;
+            }
+            .left {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <img width="133"
+            src="https://cdn.voyajoy.com/images/voyajoy-logo.png"
+            alt="voyajoy-logo" />
+        <h1>Welcome,  {}!</h1>
+        <p style="padding-top: 30px; padding-bottom: 20px; padding-left: 0; padding-right: 0;"><b>Here are the details for your upcoming stay:</b></p>
+        <p>Your stay in {{property_name}} is coming up. Please confirm that you have received this welcome letter that contains important information regarding your check-in instructions. Is our mission to make sure that your accommodations are of the highest quality. Here is your instruction letter for your stay.</p>
+        <p style="padding-bottom: 20px">Voyajoy property management will be available 24/7 throught your sta.<br/>24/7 CLIENT CARE PHONE NUMBER: +1-415-413-0671</p>
+        <table class="availability" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td style="font-size:0; line-height: 0" class="left" width="266">
+                        <img width="266" style="padding:0; margin:0;" src="{{cover_image}}" />
+                    </td>
+                    <td class="check__wrapper">
+                        <table class="check__table" align="center">
+                            <tbody>
+                                <tr class="b__bottom">
+                                    <td class="left p__left">
+                                        <small><b>CHECK-IN</b></small>
+                                        <h3>{}</h3>
+                                        <small>{{check_in}}</small>
+                                    </td>
+                                    <td class="left">
+                                        <small><b>CHECK-OUT</b></small>
+                                        <h3>{}</h3>
+                                        <small>{{check_in}}</small>
+                                    </td>
+                                    <td class="p__right">
+                                        <img
+                                            width="15"
+                                            src="https://cdn.voyajoy.com/images/icons/moon.png"
+                                            alt="moon" />
+                                        <h3>{}</h3>
+                                        <small>Nights</small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"
+                                        class="left p__left"
+                                        style="vertical-align: middle">
+                                        <img
+                                            width="25"
+                                            src="https://cdn.voyajoy.com/images/icons/supervisor.png"
+                                            alt="supervisor" />
+                                            <small style="padding-left: 5px;"><b>GUESTS</b></small>
+                                            <span style="padding-left:20px">
+                                                {}
+                                            </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>DIRECTIONS</h3>
+        <table class="directions__table" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="left" width="450"><img src="https://maps.googleapis.com/maps/api/staticmap?center={{latitude}},{{longitude}}&zoom=12&size=450x300&markers=color:red%7C{{latitude}},{{longitude}}"/></td>
+                    <td class="left p__left" valign="top">
+                        <p class="header"><b>Address</b></p>
+                        <p>{{address}}</p>
+                        <p class="header"><b>Special Directions</b></p>
+                        <p>{{arrival_instruction}}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        {% if house_rules %}
+        <h3>HOUSE RULS</h3>
+        <ol class="left">
+        {% for r in house_rules %}
+            <li>{{r.description}}</li>
+        {% endfor %}
+        </ol>
+        {% endif %}
+        <div id="things">
+            <h3>THINGS TO DO</h3>
+            {{things_to_do}}
+        </div>
+        {% if pois %}
+        <div id="pois">
+            {% for _, values in pois.items %}
+                <h5>
+                    <img width="15"
+                        src="https://cdn.voyajoy.com/images/icons/{{values.cat.icon}}.png"
+                        alt="{{values.cat.icon}}" /> {{values.cat.name}}
+                </h5>
+                {% for v in values.pois %}
+                <p>{{v.i}}. <a href="{{v.poi.url}}" target="_blank"> {{v.poi.name}}</a>&nbsp;&nbsp;{{v.poi.address}}<br /><small>{{v.poi.description}}</small></p>
+                {% endfor %}
+            {% endfor %}
+            <img class="map" width="800" src="https://maps.googleapis.com/maps/api/staticmap?center={{latitude}},{{longitude}}&zoom=15&size=800x400&markers=color:red%7Clabel:Me%7C{{latitude}},{{longitude}}{% for p in map_pois %}{% if p.latitude and p.longitude %}&markers=color:blue%7Clabel:{{ p.label }}%7C{{p.latitude}},{{p.longitude}}{% endif %}{% endfor %}"/>
+        </div>
+        {% endif %}
+    </body>
+</html>
+{% endspaceless %}

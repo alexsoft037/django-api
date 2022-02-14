@@ -1,0 +1,9 @@
+positive:
+  - "Yes, you can go ahead and check in early."
+
+negative:
+  - "Unfortunately we don't allow early check-in because of cleaning and other logistical issues. Sorry for the inconvenience!"
+  - "We have a guest who has not checked out yet. So unfortunately we cannot accommodate your request. Sorry for the inconvenience!"
+
+neutral:
+  - ""

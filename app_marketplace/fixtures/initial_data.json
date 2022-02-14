@@ -1,0 +1,45 @@
+[
+{
+  "model": "app_marketplace.app",
+  "pk": 1,
+  "fields": {
+    "name": "Slack",
+    "image": "https://cozmostorage.blob.core.windows.net/cozmo/app_marketplace/slack-chat.png",
+    "description": "Slack integration for Cozmo",
+    "install_url": "https://api-staging-cozmo.voyajoy.com/marketplace/slack/",
+    "backend_app": 0,
+    "tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "app_marketplace.app",
+  "pk": 2,
+  "fields": {
+    "name": "Gmail",
+    "image": "https://cozmostorage.blob.core.windows.net/cozmo/app_marketplace/slack-chat.png",
+    "description": "Gmail integration for Cozmo",
+    "install_url": "https://api-staging-cozmo.voyajoy.com/marketplace/google/",
+    "backend_app": 1,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "app_marketplace.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Productivity"
+  }
+},
+{
+  "model": "app_marketplace.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Communication"
+  }
+}
+]

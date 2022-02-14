@@ -1,0 +1,17 @@
+{% load account %}{% load i18n %}
+Hi {{ user.first_name }}!
+{% user_display user as user_display %}{% autoescape off %}
+{% blocktrans %} 
+Please veirfy that your email address is {{ user_display }} by clicking below
+
+Verify Email
+{{ activate_url }}
+{% endblocktrans %}{% endautoescape %}
+
+{% blocktrans with site_domain=current_site.domain %}
+If you did not sign up for an account or have any questions, please email us at support@{{ site_domain }}{% endblocktrans %}
+
+{% blocktrans %}Cheers,
+The Voyajoy Cozmo Team{% endblocktrans %}
+
+{% blocktrans %}Privacy Terms{% endblocktrans %}

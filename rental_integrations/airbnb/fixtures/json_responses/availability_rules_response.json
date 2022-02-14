@@ -1,0 +1,41 @@
+{
+  "availability_rule": {
+    "default_min_nights": 3,
+    "default_max_nights": 30,
+    "booking_lead_time": {
+      "hours": 72,
+      "allow_request_to_book": 0
+    },
+    "day_of_week_check_in": [
+      {
+        "day_of_week": 5
+      },
+      {
+        "day_of_week": 6
+      }
+    ],
+    "day_of_week_check_out": [
+      {
+        "day_of_week": 5
+      },
+      {
+        "day_of_week": 6
+      }
+    ],
+    "day_of_week_min_nights": [
+    ],
+    "listing_id": 4525291,
+    "max_days_notice": {
+      "days": 90
+    },
+    "min_days_notice": {
+      "days": -1
+    },
+    "seasonal_min_nights": null,
+    "turnover_days": {
+      "days": 0
+    }
+  },
+  "metadata": {
+  }
+}

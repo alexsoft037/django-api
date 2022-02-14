@@ -1,0 +1,22 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>Voyajoy - Password has changed</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Hi {{ user.first_name }}!
+    </h1>
+    <p>
+        We are writing to inform you that your password has successfully been reset.
+    </p>
+    <p>
+        If you did not authorize this, please reach out to us by emailing us at
+        <a href="mailto:cozmo-support@voyajoy.com">cozmo-support@voyajoy.com</a>.
+    </p>
+    <p>
+        Cheers,<br/>
+        The Voyajoy Cozmo Team
+    </p>
+{% endblock %}

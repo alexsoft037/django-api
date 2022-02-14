@@ -1,0 +1,4 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}{{ inviter_name }} has invited you to join {{ inviter_org }} on Cozmo{% endblocktrans %}
+{% endautoescape %}

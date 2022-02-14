@@ -1,0 +1,24 @@
+{
+  "pricing_setting": {
+    "cleaning_fee": 50,
+    "default_daily_price": 120,
+    "guests_included": 4,
+    "monthly_price_factor": 0.75,
+    "weekly_price_factor": 0.8,
+    "price_per_extra_person": 15,
+    "security_deposit": 250,
+    "standard_fees": [
+      {
+        "fee_type": "PASS_THROUGH_RESORT_FEE",
+        "amount": 5,
+        "amount_type": "percent"
+      },
+      {
+        "fee_type": "PASS_THROUGH_MANAGEMENT_FEE",
+        "amount": 20,
+        "amount_type": "percent"
+      }
+    ]
+  },
+  "metadata": {}
+}

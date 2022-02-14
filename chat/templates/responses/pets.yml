@@ -1,0 +1,8 @@
+positive:
+  - "We do allow pets as long as you pay the extra pet fee. This is for insurance and cleaning reasons."
+
+negative:
+  - "Unfortunately, we do not pets of any kind. Thank you for understanding."
+
+neutral:
+  - ""

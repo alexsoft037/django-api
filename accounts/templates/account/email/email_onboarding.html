@@ -1,0 +1,45 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>Welcome letter from Voyajoy</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Welcome to your free trial!
+    </h1>
+    <p>
+        <strong>iCal Magic</strong> is the first in a series of feature releases of Cozmo,
+        the exciting new vacation rental property management system the Voyajoy team is working hard to create.
+        <br/>
+        <br/>
+        We are delighted to have you aboard!
+    </p>
+    <div id="items">
+        <table id="items-table" align="center" border="0" cellpadding="0" cellspacing="0"
+               width="100%">
+            <tr>
+                <td>
+                    <img src="https://cdn.voyajoy.com/images/onboarding-settings.png"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Onboarding</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        To get started, simply add your properties to the system <a target="_blank" href="https://cozmo.voyajoy.com/properties">here</a>.
+                        <br/>
+                        <br/>
+                        To import one or more iCal links to a property that you’ve already added, follow the instructions found
+                        <a target="_blank" href="https://help.voyajoy.com/en-us/article/how-do-i-import-a-calendar-1r9bxpw/">here</a>.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+{% include 'account/email/email_question.html' %}
+{% endblock %}

@@ -1,0 +1,8 @@
+positive:
+  - "Yes, the owner may be able to give you a discount. Please let me check with the owner"
+
+negative:
+  - "We do not currently give out discounts at this time. Sorry!"
+
+neutral:
+  - ""

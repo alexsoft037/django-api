@@ -1,0 +1,9 @@
+.coverage
+.DS_Store
+.idea
+.ropeproject
+.tox
+__pycache__
+celerybeat-schedule
+files
+dist/

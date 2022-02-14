@@ -1,0 +1,4 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}{{ inviter_name }} ({{ inviter_org }} has invited you to view your rentals on {{ app_name }}{% endblocktrans %}
+{% endautoescape %}

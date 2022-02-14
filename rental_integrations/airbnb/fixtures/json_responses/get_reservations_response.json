@@ -1,0 +1,127 @@
+{
+  "metadata": {},
+  "reservations": [
+    {
+      "cancellation_policy_category": "super_strict_30",
+      "confirmation_code": "XEPATD",
+      "created_at": "2017-12-18T11:50:58+00:00",
+      "updated_at": "2017-12-28T16:40:23+00:00",
+      "booked_at": "2017-12-18T11:56:35+00:00",
+      "end_date": "2018-01-03",
+      "expected_payout_amount": 1102,
+      "expected_payout_amount_accurate": "1102.00",
+      "guest_email": "nick-owme5321y975kcat@guest.airbnb.com",
+      "guest_first_name": "Nick",
+      "guest_id": 1603069,
+      "guest_last_name": "Yu",
+      "guest_phone_numbers": [
+        "555-555-5555"
+      ],
+      "guest_preferred_locale": "en",
+      "host_currency": "USD",
+      "host_id": 1743298,
+      "listing_base_price": 1136,
+      "listing_base_price_accurate": "1136.00",
+      "listing_cancellation_host_fee": 0,
+      "listing_cancellation_host_fee_accurate": "0.00",
+      "listing_cancellation_payout": 0,
+      "listing_cancellation_payout_accurate": "0.00",
+      "listing_host_fee": 34,
+      "listing_host_fee_accurate": "34.00",
+      "listing_id": 12345678,
+      "nights": 2,
+      "number_of_guests": 1,
+      "occupancy_tax_amount_paid_to_host": 0,
+      "occupancy_tax_amount_paid_to_host_accurate": "0.00",
+      "start_date": "2018-01-01",
+      "status_type": "accept",
+      "standard_fees_details": [
+        {
+          "amount_native": 10.45,
+          "fee_type": "PASS_THROUGH_RESORT_FEE"
+        },
+        {
+          "amount_native": 10.00,
+          "fee_type": "PASS_THROUGH_LINEN_FEE"
+        }
+      ],
+      "thread_id": 435023593,
+      "total_paid_amount": 120,
+      "total_paid_amount_accurate": "120.00",
+      "transient_occupancy_tax_paid_amount": 20,
+      "transient_occupancy_tax_paid_amount_accurate": "20.45",
+      "transient_occupancy_tax_details": [
+        {
+          "amount_usd": 10.00,
+          "name": "State Occupancy Tax"
+        },
+        {
+          "amount_usd": 10.45,
+          "name": "City Lodging Tax"
+        }
+      ],
+      "cancellation_policy": "super_strict_30"
+    },
+    {
+      "cancellation_policy": "super_strict_30",
+      "cancellation_policy_category": "super_strict_30",
+      "confirmation_code": "XEPATDRYT4",
+      "created_at": "2017-12-18T11:50:58+00:00",
+      "updated_at": "2017-12-28T16:40:23+00:00",
+      "booked_at": "2017-12-18T11:56:35+00:00",
+      "end_date": "2014-01-03",
+      "expected_payout_amount": 120,
+      "expected_payout_amount_accurate": "120.00",
+      "guest_email": "nick-owme5321y975kcat@guest.airbnb.com",
+      "guest_first_name": "Nick",
+      "guest_id": 1603069,
+      "guest_last_name": "Yu",
+      "guest_phone_numbers": [
+        "555-555-5555"
+      ],
+      "guest_preferred_locale": "en",
+      "host_currency": "USD",
+      "host_id": 1743298,
+      "listing_base_price": 1136,
+      "listing_base_price_accurate": "1136.00",
+      "listing_cancellation_host_fee": 0,
+      "listing_cancellation_host_fee_accurate": "0.00",
+      "listing_cancellation_payout": 0,
+      "listing_cancellation_payout_accurate": "0.00",
+      "listing_host_fee": 34,
+      "listing_host_fee_accurate": "34.00",
+      "listing_id": 12345678,
+      "nights": 2,
+      "number_of_guests": 1,
+      "occupancy_tax_amount_paid_to_host": 0,
+      "occupancy_tax_amount_paid_to_host_accurate": "0.00",
+      "start_date": "2014-01-01",
+      "status_type": "accept",
+      "standard_fees_details": [
+        {
+          "amount_native": 10.45,
+          "fee_type": "PASS_THROUGH_RESORT_FEE"
+        },
+        {
+          "amount_native": 10.00,
+          "fee_type": "PASS_THROUGH_LINEN_FEE"
+        }
+      ],
+      "thread_id": 435023593,
+      "total_paid_amount": 120,
+      "total_paid_amount_accurate": "120.00",
+      "transient_occupancy_tax_paid_amount": 20,
+      "transient_occupancy_tax_paid_amount_accurate": 20.45,
+      "transient_occupancy_tax_details": [
+        {
+          "amount_usd": 10.00,
+          "name": "State Occupancy Tax"
+        },
+        {
+          "amount_usd": 10.45,
+          "name": "City Lodging Tax"
+        }
+      ]
+    }
+  ]
+}

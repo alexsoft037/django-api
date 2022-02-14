@@ -1,0 +1,8 @@
+positive:
+  - "Yes, we do have {amenity}"
+
+negative:
+  - "No, unfortunately we do not have {amenity}"
+
+neutral:
+  - ""

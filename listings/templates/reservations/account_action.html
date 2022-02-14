@@ -1,0 +1,18 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_static admin_modify %}
+{% block content %}
+<div id="content-main">
+  <form action="" method="POST">
+    {% csrf_token %}
+    <label for="models">Models to wipe out:</label>
+    <select id="models" name="models">
+        {% for model in models %}
+            <option value={{ model }}>{{ model }}</option>
+        {% endfor %}
+    </select>
+    <div class="submit-row">
+      <input type="submit" class="default" value="Submit" />
+    </div>
+  </form>
+</div>
+{% endblock %}

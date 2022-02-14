@@ -1,0 +1,23 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>Your iCal Magic FREE TRIAL is about to expire.</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        Your iCal Magic trial is about to expire!
+    </h1>
+    <p>
+        If you’ve enjoyed having iCal Magic as your calendaring hub, you’ll want to subscribe right away!
+        <br/>
+        <br/>
+        Be sure to <a target="_blank" href="https://cozmo.voyajoy.com/">log in</a> and subscribe for just $10/month for unlimited properties.
+    </p>
+    <p>
+        If you’re curious about upcoming Cozmo features we’re currently working on,
+        click <a target="_blank" href="https://blog.voyajoy.com/">here</a> for a preview!
+    </p>
+
+{% include 'account/email/email_question.html' %}
+{% endblock %}

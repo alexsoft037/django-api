@@ -1,0 +1,8 @@
+positive:
+  - "You might want to try a few of my favorite places nearby!\n\n{recommendations}"
+
+negative:
+  - ""
+
+neutral:
+  - ""

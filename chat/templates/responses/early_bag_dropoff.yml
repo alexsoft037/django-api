@@ -1,0 +1,8 @@
+positive:
+  - "Yes, you should be able to drop off your bag anytime today"
+
+negative:
+  - "Unfortunately, we do not allow early bag dropoff"
+
+neutral:
+  - ""

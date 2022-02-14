@@ -1,0 +1,36 @@
+{
+  "calendar": {
+    "days": [
+      {
+        "availability": "available",
+        "availability_sub_type": null,
+        "availability_type": "available",
+        "closed_to_arrival": false,
+        "closed_to_departure": false,
+        "daily_price": 66,
+        "date": "2015-02-23",
+        "min_nights": 1,
+        "max_nights": 1125,
+        "notes": null
+      },
+      {
+        "availability": "available",
+        "availability_sub_type": null,
+        "availability_type": "available",
+        "closed_to_arrival": false,
+        "closed_to_departure": false,
+        "daily_price": 66,
+        "date": "2015-02-24",
+        "min_nights": 1,
+        "max_nights": 1125,
+        "notes": null
+      }
+    ],
+    "end_date": "2015-02-24",
+    "host_id": 22919678,
+    "listing_currency": "USD",
+    "listing_id": 5240677,
+    "start_date": "2015-02-23"
+  },
+  "metadata": {}
+}

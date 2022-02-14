@@ -1,0 +1,30 @@
+{
+  "booking_setting": {
+    "cancellation_policy_category": "strict",
+    "check_in_time_end": "FLEXIBLE",
+    "check_in_time_start": "10",
+    "check_out_time": 10,
+    "guest_controls": {
+      "allows_children_as_host": true,
+      "allows_infants_as_host": false,
+      "allows_pets_as_host": true,
+      "allows_smoking_as_host": false,
+      "allows_events_as_host": true,
+      "children_not_allowed_details": "There are a lot of sharp objects in the house."
+    },
+    "instant_book_welcome_message": "Thank you for booking with us!",
+    "instant_booking_allowed_category": "everyone",
+    "listing_expectations_for_guests": [
+      {
+        "added_details": "There is construction 10AM to 5PM.",
+        "type": "potential_noise"
+      },
+      {
+        "added_details": null,
+        "type": "weapons"
+      }
+    ],
+    "listing_id": 23549776
+  },
+  "metadata": {}
+}

@@ -1,0 +1,30 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block body %}
+    <h1>
+        Hi from Voyajoy!
+    </h1>
+    <div id="items">
+        <table id="items-table" align="center" border="0" cellpadding="0" cellspacing="0"
+               width="100%">
+            <tr>
+                <td>
+                    <img src="https://cdn.voyajoy.com/images/onboarding-settings.png"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Email confirmed</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Your new email address has been confirmed.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+{% include 'account/email/email_question.html' %}
+{% endblock %}

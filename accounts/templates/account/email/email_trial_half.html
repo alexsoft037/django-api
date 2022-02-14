@@ -1,0 +1,29 @@
+{% extends 'account/email/email_base.html' %}
+
+{% block title %}
+    <title>You’re halfway through your iCal Magic 14-day FREE TRIAL!</title>
+{% endblock %}
+
+{% block body %}
+    <h1>
+        You’re halfway through your iCal Magic free trial!
+    </h1>
+    <p>
+        We hope you’ve enjoyed your first week using iCal&nbsp;Magic.
+        <br/>
+        <br/>
+        If you haven’t gotten started yet, be sure to do so before the free trial expires!
+        All that’s required is to add your properties <a target="_blank" href="https://cozmo.voyajoy.com/properties">here</a>,
+        and import the iCal links as described <a target="_blank" href="https://help.voyajoy.com/en-us/article/how-do-i-import-a-calendar-1r9bxpw/">here</a>.
+    </p>
+    <p>
+        Your free trial expires in 7 days. In order to maintain access to your calendar,
+        be sure to <a target="_blank" href="https://cozmo.voyajoy.com/">log in</a> and subscribe for just $10/month for unlimited properties.
+    </p>
+    <p>
+        If you’re curious about upcoming Cozmo features we’re currently working on,
+        click <a target="_blank" href="https://blog.voyajoy.com/">here</a> for a preview!
+    </p>
+
+{% include 'account/email/email_question.html' %}
+{% endblock %}
