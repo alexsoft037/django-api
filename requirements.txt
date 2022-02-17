@@ -1,5 +1,5 @@
 python==3.6
-aiohttp==3.2.1
+aiohttp==3.8.1
 amqp==2.6.1
 appdirs==1.4.4
 asgiref==3.4.1
