@@ -13,15 +13,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 import ssl
 import sys
-import environ
-
 from datetime import timedelta
 
 from django.core.exceptions import ImproperlyConfigured
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 
 def _required_env(name):
