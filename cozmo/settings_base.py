@@ -174,7 +174,7 @@ DATABASES = {
         "NAME": _required_env("PG_DB"),
         "USER": _required_env("PG_USER"),
         "PASSWORD": _required_env("PG_PASS"),
-        "HOST": "localhost",
+        "HOST": "ec2-52-200-188-218.compute-1.amazonaws.com",
         "PORT": "5432",
         "CONN_MAX_AGE": None,
     }
