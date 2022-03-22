@@ -12,7 +12,7 @@ class ThrottlingError(Exception):
 
 class RateLimit:
     def __init__(self, name: str, window: "datetime.timedelta", max_calls: int):
-        self.key = f"throttle:{settings.ENV_TYPE}:{name}"
+        self.key = f"throttle:'dev':{name}"
         self.window = window
         self.max_calls = max_calls
         self.conn = get_redis_connection("default")
