@@ -161,7 +161,6 @@ TEMPLATES = [
     }
 ]
 
-
 WSGI_APPLICATION = "cozmo.wsgi.application"
 
 # Database
