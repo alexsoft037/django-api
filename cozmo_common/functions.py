@@ -38,7 +38,7 @@ def send_html_content_email(html_content, subject, to):
         to=(to,),
     )
     email.attach_alternative(html_content, "text/html")
-    email.send(fail_silently=False)
+    email.send(fail_silentlsettings.ENVy=False)
 
 
 def deep_get(dictionary, *keys):
