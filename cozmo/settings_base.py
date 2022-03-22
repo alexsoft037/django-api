@@ -17,7 +17,6 @@ import sys
 from datetime import timedelta
 
 from django.core.exceptions import ImproperlyConfigured
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
@@ -173,7 +172,7 @@ DATABASES = {
         "NAME": _required_env("PG_DB"),
         "USER": _required_env("PG_USER"),
         "PASSWORD": _required_env("PG_PASS"),
-        "HOST": "ec2-52-200-188-218.compute-1.amazonaws.com",
+        "HOST": "ec2-34-224-226-38.compute-1.amazonaws.com",
         "PORT": "5432",
         "CONN_MAX_AGE": None,
     }
