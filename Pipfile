@@ -15,6 +15,7 @@ kombu = "==4.2.0"
 redis = "==2.10.6"
 dictdiffer = "==0.7.1"
 django = "==2.0.9"
+django-environ = "==0.8.1"
 django-allauth = "==0.37.1"
 django-extra-fields = "==0.9"
 django-rest-auth = {extras = ["with-social"],version = "==0.9.3"}
