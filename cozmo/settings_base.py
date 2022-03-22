@@ -41,7 +41,7 @@ SECRET_KEY = _required_env("DJ_SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DJ_DEBUG") == "True"
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','localhost']
 COZMO_CALENDAR_URL = ""
 
 # Application definition
