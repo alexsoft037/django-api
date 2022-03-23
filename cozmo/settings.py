@@ -41,7 +41,7 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with'
 )
 
-COZMO_WEB_URL = f"https://cozmo-{ENV_TYPE}.voyajoy.com/"
+COZMO_WEB_URL = f"http://cozmo-web.herokuapp.com/"
 COZMO_CALENDAR_URL = f"https://api-cozmo-{ENV_TYPE}.voyajoy.com/calendars/{{id}}/ical/"
 
 NEXMO.update({"TO": "14152995346"})  # noqa: F405
