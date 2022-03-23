@@ -10,6 +10,8 @@ ALLOWED_HOSTS = [
     # "api-staging-cozmo.voyajoy.com",  # XXX Remove after DNS change
     'localhost',
 ]
+test   adfasdfas
+
 
 
 MIDDLEWARE.insert(  # noqa: F405
