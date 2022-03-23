@@ -5,6 +5,7 @@ ENV_TYPE = "dev"
 INSTALLED_APPS += ["internal.apps.InternalConfig"]  # noqa: F405
 
 ALLOWED_HOSTS = [
+    '*'
 ]
 
 COZMO_WEB_URL = f"https://cozmo-{ENV_TYPE}.voyajoy.com/"
