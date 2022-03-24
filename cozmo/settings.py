@@ -42,6 +42,7 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with'
 )
 
+
 COZMO_WEB_URL = f"http://cozmo-web.herokuapp.com/"
 COZMO_CALENDAR_URL = f"https://api-cozmo-{ENV_TYPE}.voyajoy.com/calendars/{{id}}/ical/"
 
