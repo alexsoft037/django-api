@@ -5,10 +5,7 @@ ENV_TYPE = "dev"
 INSTALLED_APPS += ["internal.apps.InternalConfig", "corsheaders", ]  # noqa: F405
 
 ALLOWED_HOSTS = [
-    # "cozmo-api-dev.voyajoy.com",
-    # 'liuxiaobai.xyz',
-    # "api-staging-cozmo.voyajoy.com",  # XXX Remove after DNS change
-    'localhost',
+   '*'
 ]
 
 MIDDLEWARE.insert(  # noqa: F405
