@@ -41,7 +41,7 @@ SECRET_KEY = _required_env("DJ_SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DJ_DEBUG") == "True"
 
-ALLOWED_HOSTS = ['*','localhost']
+ALLOWED_HOSTS = ['*']
 COZMO_CALENDAR_URL = ""
 
 # Application definition
@@ -262,7 +262,7 @@ AIRBNB_SECRET = _required_env("AIRBNB_SECRET")
 BOOKING_CLIENT_SECRET = _required_env("BOOKING_CLIENT_SECRET")
 BOOKING_CLIENT_USERNAME = _required_env("BOOKING_CLIENT_USERNAME")
 # BOOKING_CLIENT_ID = _required_env("BOOKING_CLIENT_ID")
-COZMO_WEB_URL = "https://cozmo.voyajoy.com/"
+COZMO_WEB_URL = "http://cozmo-web.herokuapp.com/"
 LOGDNA_SECRET = _required_env("LOGDNA_SECRET")
 SLACK_ID = _required_env("SLACK_CLIENT_ID")
 SLACK_SECRET = _required_env("SLACK_SECRET")
