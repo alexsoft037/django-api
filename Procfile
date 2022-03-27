@@ -1,1 +1,1 @@
-web: gunicorn cozmo.wsgi
+web: python manage.py runserver
