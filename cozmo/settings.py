@@ -2,16 +2,16 @@ from .settings_base import *  # noqa: F403
 
 ENV_TYPE = "dev"
 
-INSTALLED_APPS += ["internal.apps.InternalConfig", "corsheaders", ]  # noqa: F405
+# INSTALLED_APPS += ["internal.apps.InternalConfig", "corsheaders", ]  # noqa: F405
 
 ALLOWED_HOSTS = [
    '*'
 ]
 
-MIDDLEWARE.insert(  # noqa: F405
-    MIDDLEWARE.index("django.middleware.common.CommonMiddleware"),  # noqa: F405
-    "corsheaders.middleware.CorsMiddleware",
-)
+# MIDDLEWARE.insert(  # noqa: F405
+#     MIDDLEWARE.index("django.middleware.common.CommonMiddleware"),  # noqa: F405
+#     "corsheaders.middleware.CorsMiddleware",
+# )
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True

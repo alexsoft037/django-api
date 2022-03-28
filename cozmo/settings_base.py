@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.postgres",
     "guardian",
+    "corsheaders",
     "storages",
     "rest_framework",
     "rest_framework_swagger",
@@ -141,6 +142,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
+    'corsheaders.middleware.CorsPostCsrfMiddleware',
 ]
 
 ROOT_URLCONF = "cozmo.urls"
